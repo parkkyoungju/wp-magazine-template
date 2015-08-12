@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8" />
+  <title> The News Reporter </title>
+  <link rel="stylesheet" href="css/common.css" />
+   <!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+ </head>
+
+ <body>
+<!-- === skipNav  ================================== -->	
+	<div id="skip">
+		<a href="#gnb">주메뉴바로가기</a>
+		<a href="#breaking">브레이킹뉴스바로가기</a>
+		<a href="#gnb">미디어바로가기</a>
+		<a href="#gnb">하단푸터바로가기</a>
+	</div>
+<!-- === wrap:빗금bg100% ================================== -->
+	<div id="wrap">
+		<!-- container:980px -->
+		<div id="container">
+			<!-- === 상단헤더 ================================== -->
+				<header id="header">
+					<!-- logo,util,social -->
+					<div class="top_area">
+						<h1 class="logo"><a href="index.html"><img src="images/common/logo.jpg" width="243" height="63" alt="The News Reporter" /></a></h1>
+						<ul class="util">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Subscribe</a></li>
+							<li><a href="#">Login</a></li>
+						</ul> 
+						<div class="right_area wid_fr">
+							<div class="social clear p_r">
+								<ul class="sns">
+									<li class="twitter"><a href="#" target="_blank">twitter</a></li>
+									<li class="face"><a href="#" target="_blank">facebook</a></li>
+									<li class="rss"><a href="#" target="_blank">rss</a></li>
+								</ul>
+								<div class="fb_like like">
+									<form action="https://www.facebook.com/login.php">
+										<button type="submit" title="좋아요" class="ir like_btn">페이스북좋아요</button>
+									</form>
+									<div class="count_num face"><span>6</span></div>
+								</div>
+								<div class="gp_like like">
+									<form action="https://accounts.google.com/ServiceLogin">
+										<button type="submit" title="+1" class="ir like_btn">구글플러스+1</button>
+									</form>
+									<div class="count_num plus"><span>3</span></div>
+								</div>
+							</div>
+							<div class="serch_box">
+								<form action="index.html">
+									<input type="text" name="serch" title="검색어를 입력하세요" class="serch" /><button type="submit" title="검색" class="submit"><span class="ir">검색</span></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- gnb -->
+					<nav id="gnb">
+						<h2 class="blind">주메뉴영역</h2>
+						<ul>                                                                                                                                                                                                                             
+							<li class="gnb0"><a href="#">worldnews</a></li>
+							<li class="gnb1"><a href="#">sports</a></li>
+							<li class="gnb2"><a href="#">tech</a></li>
+							<li class="gnb3"><a href="#">business</a></li>
+							<li class="gnb4"><a href="#">Movies</a></li>
+							<li class="gnb5"><a href="#">entertainment</a></li>
+							<li class="gnb6"><a href="#">culture</a></li>
+							<li class="gnb7"><a href="#">Books</a></li>
+							<li class="gnb8"><a href="#">classifieds</a></li>
+							<li class="gnb9"><a href="#">blogs</a></li>
+						</ul>
+					</nav>
+				</header>
+			<!-- === //상단헤더 ================================== -->
+				<hr />
+			<!-- === 컨텐츠 ================================== -->	
+				<div id="content">
+					<div class="colum_top">
+						<!-- 브레이킹뉴스 -->
+						<section class="breaking p_r wid_fl">
+							<h2 class="tit">Breaking news</h2>
+							<ul class="tab">
+								<li class="break_list tab0 on">
+									<button type="button" class="btn"><span class="ir bor">첫번째소식</span></button>
+									<div class="cnt">
+										<img src="images/main/slide_big0.jpg" width="523" height="283" alt="인상을찌푸리고있는 흑인아저씨" />
+										<p>(1)Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.</p>
+									</div>
+								</li>
+								<li class="break_list tab1">
+									<button type="button" class="btn"><span class="ir bor">두번째소식</span></button>
+									<div class="cnt">
+										<img src="images/main/slide_big0.jpg" width="523" height="283" alt="인상을찌푸리고있는 흑인아저씨" />
+										<p>(2)Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.</p>
+									</div>
+								</li>
+								<li class="break_list tab2">
+									<button type="button" class="btn"><span class="ir bor">세번째소식</span></button>
+									<div class="cnt">
+										<img src="images/main/slide_big0.jpg" width="523" height="283" alt="인상을찌푸리고있는 흑인아저씨" />
+										<p>(3)Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.</p>
+									</div>
+								</li>
+								<li class="break_list tab3">
+									<button type="button" class="btn"><span class="ir bor">네번째소식</span></button>
+									<div class="cnt">
+										<img src="images/main/slide_big0.jpg" width="523" height="283" alt="인상을찌푸리고있는 흑인아저씨" />
+										<p>(4)Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.</p>
+									</div>
+								</li>
+							</ul>
+						</section>
+						<!-- 영상목록 -->
+						<section class="video wid_fr">
+							<h2 class="blind">영상목록</h2>
+							<ul>
+								<li class="video_list">
+									<a href="#" title="영상보기">
+										<img src="images/main/video.jpg" width="68" height="56" alt="" />
+										<span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+									</a>
+								</li>
+								<li class="video_list">
+									<a href="#" title="영상보기">
+										<img src="images/main/video.jpg" width="68" height="56" alt="" />
+										<span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+									</a>
+								</li>
+								<li class="video_list">
+									<a href="#" title="영상보기">
+										<img src="images/main/video.jpg" width="68" height="56" alt="" />
+										<span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+									</a>
+								</li>
+								<li class="video_list last">
+									<a href="#" title="영상보기">
+										<img src="images/main/video.jpg" width="68" height="56" alt="" />
+										<span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="more">more +</a>
+						</section>
+					</div>
+					<div class="colum_left wid_fl">
+						<!-- world -->
+						<section class="world w458 f_l p_r">
+							<h2 class="tit"><img src="images/main/world_tit.gif" width="219" height="31" alt="FROM AROUND THE WORLD" /></h2>
+							<ul>
+								<li class="world_list">
+									<a href="#" class="link">
+										<img src="images/main/world_thum0.jpg" width="145" height="100" alt="마이크를 들고 강연하는 남자" />
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+								<li class="world_list">
+									<a href="#" class="link">
+										<img src="images/main/world_thum1.jpg" width="145" height="100" alt="야구공을 던지는 어린아이" />
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+								<li class="world_list">
+									<a href="#" class="link">
+										<img src="images/main/world_thum2.jpg" width="145" height="100" alt="대화를 나누고 있는 두 사람" />
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="more p_a">more +</a>
+						</section>
+						<!-- desk -->
+						<section class="desk w190 f_r">
+							<h2 class="tit"><img src="images/main/desk_tit.gif" width="131" height="31" alt="FROM THE DESK" /></h2>
+							<ul>
+								<li class="desk_list p_r">
+									<span class="desk_time">3 hours ago</span>
+									<a href="#" class="link">
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+								<li class="desk_list list2 p_r">
+									<span class="desk_time">3 hours ago</span>
+									<a href="#" class="link">
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+								<li class="desk_list p_r bor_b0">
+									<span class="desk_time">3 hours ago</span>
+									<a href="#" class="link">
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="more">more +</a>
+						</section>
+						<!-- articles -->
+						<section class="latest w458 f_l p_r">
+							<h2 class="tit"><img src="images/main/latest_tit.gif" width="146" height="26" alt="LATEST ARTICLES" /></h2>
+							<ul>
+								<li class="latest_list">
+									<a href="#" class="link">
+										<img src="images/main/latest_thum0.jpg" width="145" height="100" alt="물건을 보고 있는 가족들" />
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+								<li class="latest_list">
+									<a href="#" class="link">
+										<img src="images/main/latest_thum1.jpg" width="145" height="100" alt="선그라스를 끼고 있는 여자 셋" />
+										<strong >Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+								<li class="latest_list">
+									<a href="#" class="link">
+										<img src="images/main/latest_thum2.jpg" width="145" height="100" alt="아기를 보고 웃고있는 사람들" />
+										<strong>Lorem ipsum dolor sit amet, consectetur</strong>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+										<span class="read_more">READ MORE</span>
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="more p_a">more +</a>
+						</section>
+						<!-- gallery -->
+						<section class="gallery w458 f_l p_r">
+							<h2 class="tit"><img src="images/main/gallery_tit.gif" width="74" height="25" alt="GALLERY" /></h2>
+							<ul>
+								<li class="gallery_list mg_b11"><a href="#" class="ir bor" title="view more"><img src="images/main/gallery_thum0.jpg" width="145" height="100" alt="조명빛 아래 여자" /></a></li>
+								<li class="gallery_list mg_b11"><a href="#" class="ir bor" title="view more"><img src="images/main/gallery_thum1.jpg" width="145" height="100" alt="흑발의 빨간립스틱의 두 여자" /></a></li>
+								<li class="gallery_list mg_b11"><a href="#" class="ir bor" title="view more"><img src="images/main/gallery_thum2.jpg" width="145" height="100" alt="보안관 앞에 있는 한 남자" /></a></li>
+								<li class="gallery_list mg_l0"><a href="#" class="ir bor" title="view more"><img src="images/main/gallery_thum3.jpg" width="145" height="100" alt="기사가 나타나고 있는 모바일 화면" /></a></li>
+								<li class="gallery_list"><a href="#" class="ir bor" title="view more"><img src="images/main/gallery_thum4.jpg" width="145" height="100" alt="무기를 든 사람들이 자동차 트럭에 타고있다" /></a></li>
+								<li class="gallery_list"><a href="#" class="ir bor" title="view more"><img src="images/main/gallery_thum5.jpg" width="145" height="100" alt="생각하고 있는 남자의 흑백사진" /></a></li>
+							</ul>
+							<a href="#" class="more p_a">more +</a>
+						</section>
+						<!-- thch -->
+						<section class="thch w458 f_l p_r">
+							<h2 class="tit"><img src="images/main/thch_tit.gif" width="103" height="29" alt="THCH NEWS" /></h2>
+							<ul>
+								<li class="thch_list f_l">
+									<a href="#" title="read more" class="link">
+										<strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+										<p>Nulla quis lorem neque, mattis venenatis<span class="ellipsis">lectus. In interdum ullamcorper dolor Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolo</span></p>
+									</a>
+									<span>by <span class="by_red">John Doe</span>29 comments</span>
+								</li>
+								<li class="thch_list f_r">
+									<a href="#" title="read more" class="link">
+										<strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+										<p>Nulla quis lorem neque, mattis venenatis<span class="ellipsis">lectus. In interdum ullamcorper dolor Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolo</span></p>
+									</a>
+									<span>by <span class="by_red">John Doe</span>29 comments</span>
+								</li>
+								<li class="thch_list f_l second">
+									<a href="#" title="read more" class="link">
+										<strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+										<p>Nulla quis lorem neque, mattis venenatis<span class="ellipsis">lectus. In interdum ullamcorper dolor Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolo</span></p>
+									</a>
+									<span>by <span class="by_red">John Doe</span>29 comments</span>
+								</li>
+								<li class="thch_list f_r second">
+									<a href="#" title="read more" class="link">
+										<strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+										<p>Nulla quis lorem neque, mattis venenatis<span class="ellipsis">lectus. In interdum ullamcorper dolor Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolo</span></p>
+									</a>
+									<span>by <span class="by_red">John Doe</span>29 comments</span>
+								</li>
+							</ul>
+							<a href="#" class="more p_a">more +</a>
+						</section>
+						<!-- editorial -->
+						<section class="editorial w190 f_r">
+							<h2 class="tit"><img src="images/main/editorial_tit.gif" width="88" height="29" alt="EDITORIAL" /></h2>
+							<ul>
+								<li class="edit_list">
+									<a href="#" title="read more">
+										<img src="images/main/editorial_thum0.jpg" width="189" height="100" alt="하늘속의 태양빛" />
+										<span class="red">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>
+									</a>
+								</li>
+								<li class="edit_list">
+									<a href="#" title="read more">
+										<img src="images/main/editorial_thum1.jpg" width="189" height="100" alt="붉은 립스틱의 여성" />
+										<span class="red">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>
+									</a>
+								</li>
+								<li class="edit_list">
+									<a href="#" title="read more">
+										<img src="images/main/editorial_thum2.jpg" width="189" height="100" alt="숲속에 서있는 남자" />
+										<span class="red">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>
+									</a>
+								</li>
+								<li class="edit_list">
+									<a href="#" title="read more">
+										<img src="images/main/editorial_thum1.jpg" width="189" height="100" alt="붉은 립스틱의 여성" />
+										<span class="red">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>
+									</a>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="colum_right wid_fr p_r">
+						<!-- popular -->
+						<section class="popular p_a">
+							<h2 class="tit"><img src="images/main/popular_tit.gif" width="250" height="29" alt="POPULAR MOST READ" /></h2>
+							<ul>
+								<li class="popular_list">
+									<span class="date">Sept 24th 2011</span>
+									<a href="#" class="link">Lorem ipsum dolor sit amet conse ctetur adipiscing elit <span class="read_more">Read More</span></a>
+								</li>
+								<li class="popular_list">
+									<span class="date">Sept 24th 2011</span>
+									<a href="#" class="link">Lorem ipsum dolor sit amet conse ctetur adipiscing elit <span class="read_more">Read More</span></a>
+								</li>
+								<li class="popular_list">
+									<span class="date">Sept 24th 2011</span>
+									<a href="#" class="link">Lorem ipsum dolor sit amet conse ctetur adipiscing elit <span class="read_more">Read More</span></a>
+								</li>
+								<li class="popular_list">
+									<span class="date">Sept 24th 2011</span>
+									<a href="#" class="link">Lorem ipsum dolor sit amet conse ctetur adipiscing elit <span class="read_more">Read More</span></a>
+								</li>
+								<li class="popular_list">
+									<span class="date">Sept 24th 2011</span>
+									<a href="#" class="link">Lorem ipsum dolor sit amet conse ctetur adipiscing elit <span class="read_more">Read More</span></a>
+								</li>
+							</ul>
+							<a href="#" class="more">more +</a>
+						</section>
+						<!-- newsletter -->
+						<div class="newsletter p_a">
+							<strong><img src="images/main/sign_tit.gif" width="212" height="18" alt="SIGN UP FOR NEWSLETTER" /></strong>
+							<p>Sign up to receive our free newsletters!</p>
+							<form action="index.html" class="letter p_r">
+								<label for="uname">Name</label>
+								<input type="text" name="uname" id="uname" />
+								<label for="email">Email Address</label>
+								<input type="email" name="email" id="email" />	
+								<button type="submit">SUBMIT</button>
+							</form>
+							<p class="red">We do not spam. We value your privacy!</p>
+						</div>
+						<!-- sidebanner -->
+						<a href="#" target="_blank"><img src="images/main/sidebanner_top.jpg" width="250" height="227" alt="we are the world's stunt double. alberta film" /></a>
+						<a href="#" target="_blank" class="btm_banner"><img src="images/main/sidebanner_btm.jpg" width="250" height="133" alt="save up to 50% subscribe now" /></a>
+					</div>
+					<div class="colum_btm">
+						<a href="#" target="_blank"><img src="images/main/btm_banner.jpg" width="728" height="90" alt="we have a lot of customer growth and fire host cam scale right along with us. get secure manafed cloud hosting" /></a>
+					</div>
+				</div>
+			<!-- === //컨텐츠 ================================== -->
+			<!-- === 하단푸터 ================================== -->
+				<hr />
+				<footer id="footer">
+					<nav id="fnb">
+						<ul>
+							<li><a href="#">World  News</a></li>
+							<li><a href="#">Sports</a></li>
+							<li><a href="#">Techology</a></li>
+							<li><a href="#">Business</a></li>
+							<li><a href="#">Movies</a></li>
+							<li><a href="#">Entertainment</a></li>
+							<li><a href="#">Culture</a></li>
+							<li><a href="#">Books</a></li>
+							<li><a href="#">Classifieds</a></li>
+							<li><a href="#">Blogs</a></li>
+						</ul>
+					</nav>
+					<address>Copyright &copy; 2011 The News Reporter Inc. All rights reserved. Theme designed by GraphicsFuel.com</address>
+					<p>Reproduction in whole or in part in any form or medium without express written permission of The News Reporter Inc. is prohibited. The trade marks and images used in<br />the design are the copyright of their respective owners. They are used only for display purpose.</p>
+				</footer>
+			<!-- === //하단푸터 ================================== -->
+		</div>
+	</div>
+ </body>
+</html>
